@@ -22,8 +22,8 @@ modules:
   - name: node
     sources:
       - type: archive
-        url: https://nodejs.org/dist/v20.13.0/node-v20.13.0.tar.xz
-        sha256: 11d229fcad7e6e10f450301223c602043f021cda51259ffafc7e55e484b37dc7
+        url: https://nodejs.org/dist/v20.13.1/node-v20.13.1.tar.xz
+        sha256: 791786a09023241cb7e4f7d65ec90aa924bb39141ff7bb6d5a1dedf7def4b4e7
         x-checker-data:
           type: json
           url: https://nodejs.org/dist/index.json
