@@ -1,7 +1,7 @@
 app-id: org.freedesktop.Sdk.Extension.node20
-branch: '23.08'
+branch: "23.08"
 runtime: org.freedesktop.Sdk
-runtime-version: '23.08'
+runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 build-extension: true
 separate-locales: false
@@ -22,8 +22,8 @@ modules:
   - name: node
     sources:
       - type: archive
-        url: https://nodejs.org/dist/v20.18.0/node-v20.18.0.tar.xz
-        sha256: 7d9433e91fd88d82ba8de86e711ec41907638e227993d22e95126b02f6cd714a
+        url: https://nodejs.org/dist/v20.19.6/node-v20.19.6.tar.xz
+        sha256: 2026f9ff52c286d7c7d99932b21be313d1736aea524c5aff1748d41ab0bd9a20
         x-checker-data:
           type: json
           url: https://nodejs.org/dist/index.json
